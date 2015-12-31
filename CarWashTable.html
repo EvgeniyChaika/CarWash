@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarWash</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<script src="moment.js"></script>
+<script>moment().format();</script>
+<script src="CarWashTable.js"></script>
+<table>
+    <caption><h1>CarWash</h1></caption>
+    <tr>
+        <th id="admin" onclick="draw()">Administrator</th>
+        <th id="master" onclick="draw()">Master</th>
+        <th id="user" onclick="draw()">User</th>
+    </tr>
+    <tr>
+        <td colspan="3" id="content">Click on the title of the column
+            to display information.</td>
+    </tr>
+</table>
+</body>
+</html>
